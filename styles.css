@@ -1,0 +1,36 @@
+:root {
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext: #a6adc8;
+  --base: #1e1e2e;
+  --crust: #11111b;
+}
+
+body {
+  background-color: black;
+  color: var(--text);
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+ img {
+  padding: 10px;
+  height: 350px;
+}
+
+a {
+  display: block;
+  padding-top: 16px;
+  color: var(--text);
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: darkblue;
+}
